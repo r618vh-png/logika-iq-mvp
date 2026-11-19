@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS report_links (
+  attempt_id TEXT PRIMARY KEY REFERENCES attempts(id) ON DELETE CASCADE,
+  token TEXT NOT NULL UNIQUE
+);

@@ -1,0 +1,3 @@
+ALTER TABLE attempts ADD COLUMN email TEXT;
+ALTER TABLE attempts ADD COLUMN phone TEXT;
+ALTER TABLE attempts ADD COLUMN consent_at INTEGER;
