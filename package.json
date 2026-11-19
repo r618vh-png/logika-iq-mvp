@@ -1,0 +1,1 @@
+{"name":"logika-iq-demo","version":"1.0.0","private":true,"type":"module","engines":{"node":">=24"},"scripts":{"start":"node scripts/local.mjs","build":"node scripts/build.mjs","test":"node --test scripts/flow.test.mjs"}}
